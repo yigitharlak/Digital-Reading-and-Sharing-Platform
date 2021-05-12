@@ -4,6 +4,7 @@ public class Publisher extends User {
     private String officialName;
     private String webSite;
     private String phoneNumber;
+    Book newBook;
 
     public Publisher(String name, String lastName, String email, String password, int id,
                      String officialName, String webSite, String phoneNumber ){
@@ -37,6 +38,10 @@ public class Publisher extends User {
 
     public String getPhoneNumber(){
         return this.phoneNumber;
+    }
+
+    public void addBook(){
+        this.newBook = new Book();
     }
 
 }

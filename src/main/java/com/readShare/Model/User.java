@@ -7,6 +7,13 @@ public class User {
     private String name;
     private String lastName;
     private String eMail;
+
+    //DEFAULT CONSTRUCTOR
+    public User(){
+
+
+    }
+
     public User(String name, String lastName, String email, String password, int id ){
         this.name = name;
         this.lastName = lastName;
