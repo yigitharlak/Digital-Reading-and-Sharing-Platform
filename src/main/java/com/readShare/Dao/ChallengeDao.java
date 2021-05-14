@@ -27,7 +27,7 @@ public class ChallengeDao {
     }
 
     //Get id specified challenge
-    public Challenge getBook(Challenge challenge) {
+    public Challenge getChallenge(Challenge challenge) {
 
         String query = "SELECT * FROM challenge WHERE id ="+ challenge.getId();
         List<Challenge> challenges = jdbcTemplate.query(query, new ChallengeMapper());
