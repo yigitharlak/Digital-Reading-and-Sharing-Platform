@@ -4,6 +4,11 @@ public class Book {
     private int id;
     private String title;
 
+    //DEFAULT CONSTRUCTOR
+    public Book(){
+
+    }
+
     public Book(int id, String title){
         this.id = id;
         this. title = title;
